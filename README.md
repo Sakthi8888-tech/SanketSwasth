@@ -5,7 +5,7 @@
 
 Built for the Seva Innovation Challenge, track **Swasth & Samavesh Bharat** (Healthcare innovation, Preventive health, Assistive technology, Inclusive solutions).
 
-> ⚠️ **Status: research prototype.** This repo is a working scaffold. It ships **no trained model and no dataset**; you collect signs with deaf community partners and train it yourself. It is a communication aid for clinicians, **not** a diagnostic device and not a replacement for human interpreters.
+> **Status: research prototype.** This repo is a working scaffold. It ships **no trained model and no dataset**; you collect signs with deaf community partners and train it yourself. It is a communication aid for clinicians, **not** a diagnostic device and not a replacement for human interpreters.
 
 ## The problem
 India has very few certified Indian Sign Language (ISL) interpreters, and almost none in village clinics. Deaf patients often can't describe symptoms, so diagnoses are delayed and preventive screening never reaches them. Most of the exisiting  interpreters often translate the conversion as a whole making it difficult for the doctors to understand the actual concern of the patient
@@ -59,13 +59,13 @@ tests/            unit tests for the rule engine
 ```
 
 ## Roadmap
-- [ ] Collect dataset with deaf associations / special schools (with informed consent)
-- [ ] Clinician review of preventive rules
-- [ ] Mobile app (Android, TFLite) for ASHA/ANM workers
-- [ ] ISL video clips / avatar for doctor → patient direction
-- [ ] Few-shot "teach the app a new regional sign"
-- [ ] Federated learning across clinics
-- [ ] Anonymised community screening dashboard
+->  Collect dataset with deaf associations / special schools (with informed consent)
+->  Clinician review of preventive rules
+->  Mobile app (Android, TFLite) for ASHA/ANM workers
+->  ISL video clips / avatar for doctor → patient direction
+->  Few-shot "teach the app a new regional sign"
+->  Federated learning across clinics
+->  Anonymised community screening dashboard
 
 ## Responsible use
 Sign vocabularies vary by region; always validate with the local deaf community. Recognition errors are possible: a human must confirm anything clinically important. Obtain informed consent for all data collection and follow applicable Indian data-protection requirements.

@@ -10,7 +10,7 @@ import mediapipe as mp
 mp_holistic = mp.solutions.holistic
 mp_draw = mp.solutions.drawing_utils
 
-FEATURES = 33 * 4 + 21 * 3 + 21 * 3  # pose(x,y,z,vis) + left hand + right hand = 258
+FEATURES = 33 * 4 + 21 * 3 + 21 * 3  
 
 
 def make_holistic():

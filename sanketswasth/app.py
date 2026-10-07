@@ -1,10 +1,5 @@
 """Real-time consultation app with the confidence-aware safety layer.
 
-    python -m sanketswasth.app
-
-Keys:  c = confirm suggested sign   x = reject   ENTER = finish & show summary
-       r = doctor reply (type in terminal)        q = quit
-
 Safety logic: a sign is accepted automatically only when the model is very
 sure. If it is only moderately sure, the app ASKS the patient to confirm
 (rather than guessing). Below that, it ignores the input.
@@ -20,9 +15,9 @@ from .summary import build_summary
 from .pictograms import find_pictograms
 
 SEQ_LEN = 30
-AUTO_ACCEPT = 0.90   # accept without asking
-ASK_CONFIRM = 0.60   # between this and AUTO_ACCEPT -> ask patient
-STABLE_FRAMES = 6    # same prediction this many times in a row
+AUTO_ACCEPT = 0.90   
+ASK_CONFIRM = 0.60
+STABLE_FRAMES = 6
 
 
 def main(model_dir="models", camera=0):

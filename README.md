@@ -1,4 +1,4 @@
-# SanketSwasth 🤟🩺
+# SanketSwasth 🩺#SEVA INNOVATION ( AN ADVANCED ML BASED SIGN LANGUAGE INTERPRETER)
 
 **A sign-language health consultation bridge with preventive triage.**
 *Giving every deaf patient a voice at the clinic, even where no interpreter exists.*
@@ -8,7 +8,7 @@ Built for the Seva Innovation Challenge, track **Swasth & Samavesh Bharat** (Hea
 > ⚠️ **Status: research prototype.** This repo is a working scaffold. It ships **no trained model and no dataset**; you collect signs with deaf community partners and train it yourself. It is a communication aid for clinicians, **not** a diagnostic device and not a replacement for human interpreters.
 
 ## The problem
-India has very few certified Indian Sign Language (ISL) interpreters, and almost none in village clinics. Deaf patients often can't describe symptoms, so diagnoses are delayed and preventive screening never reaches them.
+India has very few certified Indian Sign Language (ISL) interpreters, and almost none in village clinics. Deaf patients often can't describe symptoms, so diagnoses are delayed and preventive screening never reaches them. Most of the exisiting  interpreters often translate the conversion as a whole making it difficult for the doctors to understand the actual concern of the patient
 
 ## How it works
 1. **Patient → doctor:** camera → MediaPipe body/hand landmarks → small LSTM recognises a restricted **medical** sign vocabulary → structured symptom summary.
@@ -70,5 +70,3 @@ tests/            unit tests for the rule engine
 ## Responsible use
 Sign vocabularies vary by region; always validate with the local deaf community. Recognition errors are possible: a human must confirm anything clinically important. Obtain informed consent for all data collection and follow applicable Indian data-protection requirements.
 
-## License
-MIT

@@ -1,0 +1,1 @@
+"""SanketSwasth: sign-language health consultation bridge with preventive triage."""

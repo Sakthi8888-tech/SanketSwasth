@@ -1,8 +1,7 @@
 """Record training samples for each sign.
 
-    python -m sanketswasth.collect --sign fever --samples 30
 
-Press SPACE to record one 30-frame sequence, q to quit.
+Pressing SPACE to record one 30-frame sequence, q to quit. 
 Get informed consent from every volunteer. Only landmark numbers are saved,
 never the video.
 """
